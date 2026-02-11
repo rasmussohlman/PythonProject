@@ -1,0 +1,7 @@
+leiviska = float(input("Anna leiviskät"))
+naula = float(input("Anna naulat"))
+luodit = float(input("Anna luodit"))
+kokonais_grammat = (luodit*13.3)+(naula*13.3*32)+(leiviska*13.3*32*20)
+kilogrammat = int(kokonais_grammat/1000)
+grammat = (kokonais_grammat % 1000)
+print(f"Massa nykymittojen mukaan: \n{kilogrammat} kilogrammaa ja {grammat:.2f} grammaa")
